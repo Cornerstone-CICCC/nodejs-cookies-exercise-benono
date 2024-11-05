@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-cookies-exercise-benono",
+  "version": "1.0.0",
+  "description": "**Goal:** Create a working login form using NodeJS and Express. Use EJS for the frontend.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon dist/server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.1.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.7"
+  }
+}

@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+
+<h1>Welcome, <%= username ?? 'user' %>!</h1>
+<h3>Your email address is <%= email ?? 'some@email.com' %>.</h3>
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quaerat numquam
+  beatae rem distinctio fugiat unde qui repellat quia ipsam.
+</p>
+<ul>
+  <li>List Item 1</li>
+  <li>List Item 2</li>
+  <li>List Item 3</li>
+  <li>List Item 4</li>
+  <li>List Item 5</li>
+</ul>
+<a href="/logout">Log Out</a>
+
+<%- include('partials/footer') %>

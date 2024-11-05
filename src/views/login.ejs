@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+
+<h1>Login</h1>
+<form action="/login" method="POST">
+  <label>
+    <span>Username</span>
+    <input
+      type="text"
+      name="username"
+      placeholder="Enter username"
+      autocomplete="off"
+    />
+  </label>
+  <label>
+    <span>Password</span>
+    <input type="password" name="password" placeholder="Enter password" />
+  </label>
+  <button type="submit">Log In</button>
+</form>
+
+<%- include('partials/footer') %>
